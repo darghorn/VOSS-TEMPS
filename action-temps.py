@@ -40,7 +40,7 @@ def verbalise_minute(i):
 def intent_received(hermes, intent_message):
 
 
-    if intent_message.intent.intent_name == 'Joseph:askTime':
+    if intent_message.intent.intent_name == 'darghorn:askTime':
 		sentence = 'Il est '
 		print(intent_message.intent.intent_name)
 
